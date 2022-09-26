@@ -1,11 +1,36 @@
-
-import './App.css';
+import "../src/index.css";
+import Navbar from "./components/NavBar/NavBar.jsx";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "../src/components/Home/Home";
+import Header from "../src/components/Header/Header";
+import Footer from "../src/components/Footer/Footer";
+import Contact from "../src/components/Contact/Contact"
+import Services from "../src/components/Services/Services"
+import About from "../src/components/About/About"
+import Copyright from "./components/Copyright/Copyright.jsx"
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        {/* <Navb/> */}
+        <Routes>
+          <Route exact path="/home" component={Home}></Route>
+          <Route exact path="/header" component={Header}></Route>
+          <Route exact path="/about" component={About}></Route>
+          <Route exact path="/services" component={Services}></Route>
+          <Route exact path="/contact" component={Contact}></Route>
+        </Routes>
+        <Header />
+        {/* <Head/> */}
+        <About/>
+        <Services/>
+        <Contact/>
+        <Footer />
+        <Copyright/>
+      </div>
+    </Router>
   );
 }
 
