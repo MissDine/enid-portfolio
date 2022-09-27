@@ -8,6 +8,7 @@ import Services from "./components/Services/Services";
 import Contact from "./components/Contact/Contact"
 import Projects from "./components/Projects/Projects"
 import Copyright from "./components/Copyright/Copyright";
+import Experience from "./components/Experience/Experience"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Header/>
         <About/>
         <Services/>
+        <Experience/>
         <Projects/>
         <Contact/>
         <Copyright/>
