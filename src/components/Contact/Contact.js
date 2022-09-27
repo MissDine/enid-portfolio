@@ -19,7 +19,7 @@ function Contact() {
   }
 
   return (
-    <div className="col-sm-12" style={{backgroundColor:"#EAF6F6"}}>
+    <div className="col-sm-12" style={{backgroundColor:"#66BFBF"}}>
     <div className="contacts" style={{justifyContent:"center"}}>
     <h1 style={{fontSize:"2rem",fontWeight:"600px", textAlign:"center",color:"#FF0063"}}>Contact Us</h1>
     </div>

@@ -17,11 +17,11 @@ function Header() {
             typeSpeed={150}
             backSpeed={150}
             loop
-            style={{fontSize:"1.5rem",fontWeight:"400px"}}
+            style={{fontSize:"1.5rem",fontWeight:"600px", color:"#FF0063"}}
           />
             </span></h1>
             <a href="enidnyatichi1212@gmail.com">
-                <button style={{backgroundColor:"#FF0063", border:" solid 0px"}}>Hire me !</button>
+                <button style={{backgroundColor:"#FF0063", border:" solid 0px", color:"white"}}>Hire me !</button>
             </a>
         </div>
       </div>
