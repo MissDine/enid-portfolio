@@ -7,6 +7,7 @@ import About from "./components/About/About"
 import Services from "./components/Services/Services";
 import Contact from "./components/Contact/Contact"
 import Projects from "./components/Projects/Projects"
+import Copyright from "./components/Copyright/Copyright";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Services/>
         <Projects/>
         <Contact/>
+        <Copyright/>
       </div>
     </Router>
   );
