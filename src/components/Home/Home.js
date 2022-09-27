@@ -4,6 +4,7 @@ import Header from '../Header/Header'
 import About from "../About/About"
 import Services from '../Services/Services'
 import Contact from "../Contact/Contact"
+import Copyright from '../Copyright/Copyright'
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
         <About/>
         <Services/>
         <Contact/>
+        <Copyright/>
     </div>
   )
 }
