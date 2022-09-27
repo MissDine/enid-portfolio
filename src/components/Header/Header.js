@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className='col-sm-12' style={{backgroundColor:"#66BFBF"}}>
       <div className="col-sm-12" style={{display:"flex", flexWrap:"Wrap"}}>
-        <div className="col-sm-12">
+        <div className="col-sm-">
             <img src={Enid} alt="" style={{height:"400px",width:"400px",borderRadius:"50%"}}/>
         </div>
         <div className="col-sm-12">
