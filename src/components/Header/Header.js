@@ -6,10 +6,10 @@ function Header() {
   return (
     <div className='col-sm-12' style={{backgroundColor:"#66BFBF"}}>
       <div className="col-sm-12" style={{display:"flex", flexWrap:"Wrap"}}>
-        <div className="image">
+        <div className="col-sm-12">
             <img src={Enid} alt="" style={{height:"400px",width:"400px",borderRadius:"50%"}}/>
         </div>
-        <div className="info">
+        <div className="col-sm-12">
             <h1>Hello, I'm Enid</h1>
             <h1>And I am a <span>
             <Typed
